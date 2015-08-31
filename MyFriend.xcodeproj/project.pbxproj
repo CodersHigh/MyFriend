@@ -13,6 +13,7 @@
 		2C0DD3BF1B9485AE00A5FC7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0DD3BE1B9485AE00A5FC7A /* Images.xcassets */; };
 		2C0DD3C21B9485AE00A5FC7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0DD3C01B9485AE00A5FC7A /* LaunchScreen.xib */; };
 		2C0DD3CE1B9485AE00A5FC7A /* MyFriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0DD3CD1B9485AE00A5FC7A /* MyFriendTests.swift */; };
+		2C0DD3DA1B94896100A5FC7A /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0DD3D91B94896100A5FC7A /* License.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2C0DD3C71B9485AE00A5FC7A /* MyFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0DD3CC1B9485AE00A5FC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C0DD3CD1B9485AE00A5FC7A /* MyFriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendTests.swift; sourceTree = "<group>"; };
+		2C0DD3D91B94896100A5FC7A /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		2C0DD3B51B9485AE00A5FC7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C0DD3D91B94896100A5FC7A /* License.rtf */,
 				2C0DD3B61B9485AE00A5FC7A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0DD3DA1B94896100A5FC7A /* License.rtf in Resources */,
 				2C0DD3BD1B9485AE00A5FC7A /* Main.storyboard in Resources */,
 				2C0DD3C21B9485AE00A5FC7A /* LaunchScreen.xib in Resources */,
 				2C0DD3BF1B9485AE00A5FC7A /* Images.xcassets in Resources */,
@@ -411,6 +415,7 @@
 				2C0DD3D31B9485AE00A5FC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C0DD3D41B9485AE00A5FC7A /* Build configuration list for PBXNativeTarget "MyFriendTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2C0DD3D61B9485AE00A5FC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

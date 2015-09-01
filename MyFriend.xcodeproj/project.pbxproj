@@ -14,6 +14,7 @@
 		2C0DD3C21B9485AE00A5FC7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0DD3C01B9485AE00A5FC7A /* LaunchScreen.xib */; };
 		2C0DD3CE1B9485AE00A5FC7A /* MyFriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0DD3CD1B9485AE00A5FC7A /* MyFriendTests.swift */; };
 		2C0DD3DA1B94896100A5FC7A /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0DD3D91B94896100A5FC7A /* License.rtf */; };
+		2C0DD3DC1B9536C900A5FC7A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0DD3DB1B9536C900A5FC7A /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2C0DD3CC1B9485AE00A5FC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C0DD3CD1B9485AE00A5FC7A /* MyFriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendTests.swift; sourceTree = "<group>"; };
 		2C0DD3D91B94896100A5FC7A /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		2C0DD3DB1B9536C900A5FC7A /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2C0DD3B41B9485AE00A5FC7A /* MyFriend */ = {
 			isa = PBXGroup;
 			children = (
+				2C0DD3DB1B9536C900A5FC7A /* RoundButton.swift */,
 				2C0DD3B71B9485AE00A5FC7A /* AppDelegate.swift */,
 				2C0DD3B91B9485AE00A5FC7A /* ViewController.swift */,
 				2C0DD3BB1B9485AE00A5FC7A /* Main.storyboard */,
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0DD3DC1B9536C900A5FC7A /* RoundButton.swift in Sources */,
 				2C0DD3BA1B9485AE00A5FC7A /* ViewController.swift in Sources */,
 				2C0DD3B81B9485AE00A5FC7A /* AppDelegate.swift in Sources */,
 			);
